@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Savefile — Sudoku FSM Solver
+[*]
+[dumpfile] "/Users/parv/Documents/Verilog/sudoku_waves.vcd"
+[dumpfile_mtime] "Thu May 14 2026"
+[dumpfile_size] 0
+[savefile] "/Users/parv/Documents/Verilog/sudoku_view.gtkw"
+[timestart] 0
+[size] 1400 700
+[pos] 0 0
+*1.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sudoku_tb.
+[treeopen] sudoku_tb.dut.
+[signals_width] 300
+[sst_expanded] 1
+[sst_vpaned_height] 300
+@28
+sudoku_tb.clk
+sudoku_tb.rst
+sudoku_tb.start
+@29
+sudoku_tb.solved
+sudoku_tb.no_solution
+@28
+-
+@28
+sudoku_tb.dut.state[3:0]
+sudoku_tb.dut.sel_cell[6:0]
+sudoku_tb.dut.chosen_digit[3:0]
+sudoku_tb.dut.current_mask[8:0]
+sudoku_tb.dut.tried[8:0]
+@28
+-
+@28
+sudoku_tb.dut.stk_push
+sudoku_tb.dut.stk_pop
+sudoku_tb.dut.stk_empty
+sudoku_tb.dut.stk_full
+sudoku_tb.dut.push_tried_w[8:0]
+sudoku_tb.dut.top_cell[6:0]
+sudoku_tb.dut.top_tried[8:0]
+[pattern_trace] 1
+[pattern_trace] 0
